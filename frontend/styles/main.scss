@@ -5,7 +5,6 @@ body {
 }
 
 // Navbar
-
 .navbar-brand {
   img {
       max-height: 40px;
@@ -46,7 +45,6 @@ body {
 }
 
 // Header
-
 header {
   padding: 180px 0 165px;
   margin-top: -70px;
@@ -74,6 +72,90 @@ header {
     &:hover {
       background-color: #8a3809;
       color: #fff;
+    }
+  }
+}
+
+// Statistik
+.section-stats {
+  margin-top: -50px;
+}
+
+.stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  P {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+// Popular
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular-heading {
+  margin-top: 150px;
+
+  h2, p {
+    color: #fff;
+  }
+
+  h2 {
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+// Popular Content
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #ddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: #fff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #FF9353;
+        color: #fff;
+        
+        &:hover {
+          background-color: #8a3809;
+          color: #fff;
+        }
+      }
     }
   }
 }
