@@ -263,7 +263,7 @@ header {
   }
 }
 
-// Details
+// Details Page
 .section-details-header {
   min-height: 310px;
   background: #e4e6eb;
@@ -307,28 +307,46 @@ header {
 
   .features {
     margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071C4D;
+      margin-bottom: 0;
+    }
+  
+    p {
+      margin-bottom: 0;
+    }
+
+    .discription {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+  
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
   }
 
-  h3 {
-    font-size: 18px;
-    color: #071C4D;
-    margin-bottom: 0;
-  }
+  .gallery {
+    .xzoom-container {
+      display: block;
 
-  p {
-    margin-bottom: 0;
-  }
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
 
-  .discription {
-    margin-left: 10px;
-    overflow: hidden;
-    float: left;
+      .xactive {
+        border: 2px solid #1ABC9C;
+        box-shadow: none;
+      }
+    }
   }
-
-  .features-image {
-    width: 45px;
-    height: 45px;
-    float: left;
-  }
+  
 }
 
