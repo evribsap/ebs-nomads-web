@@ -308,7 +308,7 @@ header {
   .card-right {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border-bottom: 0;
+    border-bottom: none;
   }
 
   .features {
@@ -362,7 +362,7 @@ header {
   //}
 
   .join-container {
-    margin-top: 16px;
+    margin-top: -16px;
   }
 
   .btn-join-now {

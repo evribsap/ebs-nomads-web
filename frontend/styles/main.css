@@ -281,7 +281,7 @@ header .btn-get-started:hover {
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom: 0;
+  border-bottom: none;
 }
 
 .section-details-content .features {
@@ -328,7 +328,7 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .join-container {
-  margin-top: 16px;
+  margin-top: -16px;
 }
 
 .section-details-content .btn-join-now {
