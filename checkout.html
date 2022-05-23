@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
     <link rel="stylesheet" href="frontend/styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
@@ -15,59 +15,18 @@
     <!-- Navbar -->
     <div class="container">
         <nav class="row navbar navbar-expand-lg navbar-light bg-white">
-            <a href="#" class="navbar-brand">
-                <img src="frontend/images/logo.png" alt="NOMADS">
-            </a>
-            <button class="navbar-toggler navbar-toggler-right"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navb">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navb">
-                <ul class="navbar-nav ml-auto mr-3">
-                    <li class="nav-item mx-md-2">
-                        <a href="#" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="#" class="nav-link">Paket Travel</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a 
-                        href="#" 
-                        class="nav-link dropdown-toggle" 
-                        id="navbardrop" 
-                        data-toggle="dropdown"
-                        >
-                            Services
-                        </a>
-                        <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Link</a>
-                            <a href="#" class="dropdown-item">Link</a>
-                            <a href="#" class="dropdown-item">Link</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="#" class="nav-link">Testimonial</a>
-                    </li>
-                </ul>
-
-                 <!-- Mobile button -->
-
-                 <form class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login my-2 my-sm-0">
-                        Masuk
-                    </button>
-                </form>
-
-                <!-- Desktop Button -->
-                
-                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
-                        Masuk
-                    </button>
-                </form>
-            </div>
+           <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="frontend/images/logo.png" alt="NOMADS">
+                </a>
+           </div>
+           <ul class="navbar-nav mr-auto d-none d-lg-block">
+               <li>
+                   <span class="text-muted">
+                       | &nbsp; Beyond the explorer of the world
+                   </span>
+               </li>
+           </ul>
         </nav>
     </div>
 
@@ -83,8 +42,11 @@
                                 <li class="breadcrumb-item">
                                     Paket Travel
                                 </li>
-                                <li class="breadcrumb-item active">
+                                <li class="breadcrumb-item">
                                     Details
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Checkout
                                 </li>
                             </ol>
                         </nav>
